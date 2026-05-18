@@ -4,8 +4,8 @@
 
     <item
         android:id="@+id/action_share"
-        android:icon="@android:drawable/ic_menu_share"
-        android:title="Share Repository"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
         app:showAsAction="ifRoom" />
 
     <item

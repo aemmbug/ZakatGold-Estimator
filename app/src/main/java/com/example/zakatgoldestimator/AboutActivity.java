@@ -30,7 +30,7 @@ public class AboutActivity extends AppCompatActivity {
         Button btnGitHubLink = findViewById(R.id.btnGitHubLink);
         btnGitHubLink.setOnClickListener(v -> {
             // Replace with your actual repository URL link when pushing code
-            String githubUrl = "https://github.com/";
+            String githubUrl = "https://github.com/aemmbug/ZakatGold-Estimator";
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
             startActivity(browserIntent);
         });

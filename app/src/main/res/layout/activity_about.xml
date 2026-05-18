@@ -25,12 +25,17 @@
             android:padding="24dp"
             android:gravity="center_horizontal">
 
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img_developer"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
                 android:layout_marginBottom="16dp"
-                android:src="@android:drawable/ic_menu_myplaces"
-                app:tint="#D4AF37" />
+                android:scaleType="centerCrop"
+                android:contentDescription="Developer Profile Picture"
+                android:src="@drawable/self"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
 
             <TextView
                 android:id="@+id/tvDevName"
@@ -65,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:text="Gold Zakat Calculator is a dedicated mobile utility built to seamlessly calculate Islamic wealth contributions on keeping and wearing items according to local uruf regulations."
+        android:text="ZakatGold Estimator is a dedicated mobile utility built to seamlessly calculate Islamic wealth contributions on keeping and wearing items according to local uruf regulations."
         android:textColor="#A1A1AA"
         android:textSize="14sp"
         android:gravity="center"

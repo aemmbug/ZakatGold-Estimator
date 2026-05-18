@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_share) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            String shareBody = "Check out my Gold Zakat Calculator repository: https://github.com/yourusername/namaprojek/";
+            String shareBody = "Check out my ZakatGold Estimator repository: https://github.com/aemmbug/ZakatGold-Estimator";
             shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(shareIntent, "Share via"));
             return true;
